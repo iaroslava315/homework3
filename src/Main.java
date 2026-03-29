@@ -45,5 +45,17 @@ public class Main {
         System.out.println("На каждого ученика рассчитано " + paperForOneStudent + " листов бумаги");
 
 
+        byte bottle = 16;
+        byte time = 2;
+        int bottleFor20Minutes = (bottle / time) * 20;
+        System.out.println("За 20 минут машина произвела " + bottleFor20Minutes + " штук бутылок");
+        int bottleForDay = ((bottle / time) * 60) * 24;
+        System.out.println("За сутки машина произвела " + bottleForDay + " штук бутылок");
+        int bottleFor3Days = bottleForDay * 3;
+        System.out.println("За трое суток машина произвела " + bottleFor3Days + " штук бутылок");
+        int bottleForMonth = bottleForDay * 30;
+        System.out.println("За месяц машина произвела " + bottleForMonth + " штук бутылок");
+
+
     }
 }
