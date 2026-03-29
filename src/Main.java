@@ -57,5 +57,14 @@ public class Main {
         System.out.println("За месяц машина произвела " + bottleForMonth + " штук бутылок");
 
 
+        byte allBottles = 120;
+        byte whiteBottleForOneRoom = 2;
+        byte brownBottleForOneRoom = 4;
+        int allRooms = allBottles / (whiteBottleForOneRoom + brownBottleForOneRoom);
+        int allWhiteBottles = whiteBottleForOneRoom * allRooms;
+        int allBrownBottles = brownBottleForOneRoom * allRooms;
+        System.out.println("В школе, где " + allRooms + " классов, нужно " + allWhiteBottles + " банок белой краски и " + allBrownBottles + " банок коричневой краски");
+
+
     }
 }
