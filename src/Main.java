@@ -91,6 +91,22 @@ public class Main {
         System.out.println("В среднем для похудения потребуется " + middleDays + " день");
 
 
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        double profit = 0.1;
+        double newMashaSalary = (masha * profit) + masha;
+        double differanceMasha = (newMashaSalary * 12) - (masha * 12);
+        System.out.println("Маша теперь получает " + newMashaSalary + " рублей. Годовой доход вырос на " + differanceMasha + " рублей");
+        double newDenisSalary = (denis * profit) + denis;
+        double differanceDenis = (newDenisSalary * 12) - (denis * 12);
+        System.out.println("Денис теперь получает " + newDenisSalary + " рублей. Годовой доход вырос на " + differanceDenis + " рублей");
+        double newKristinaSalary = (kristina * profit) + kristina;
+        double differanceKristina = (newKristinaSalary * 12) - (kristina * 12);
+        System.out.println("Кристина теперь получает " + newKristinaSalary + " рублей. Годовой доход вырос на " + differanceKristina + " рублей");
+
+
+
 
     }
 }
