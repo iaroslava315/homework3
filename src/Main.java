@@ -6,6 +6,19 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.println("Hello and welcome!");
 
+        int papers = 1025456;
+        System.out.println("Значение переменной листки с типом int = " + papers + " штук");
+        byte dogs = 15;
+        System.out.println("Значение переменной собаки с типом byte = " + dogs + " штук");
+        short sugar = 6230;
+        System.out.println("Значение переменной сахар с типом short = " + sugar + " кг");
+        long days = 365L;
+        System.out.println("Значение переменной дни с типом long = " + days + " дней");
+        float water = 1.5f;
+        System.out.println("Значение переменной вода с типом float = " + water + " литров");
+        double tea = 2.5;
+        System.out.println("Значение переменной чай с типом double = " + tea + " кг");
+
 
     }
 }
