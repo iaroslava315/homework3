@@ -66,5 +66,20 @@ public class Main {
         System.out.println("В школе, где " + allRooms + " классов, нужно " + allWhiteBottles + " банок белой краски и " + allBrownBottles + " банок коричневой краски");
 
 
+        byte bananas = 5;
+        int weightBanana = bananas * 80;
+        short milk = 200;
+        int weightMilk = (milk * 105) / 100;
+        byte iceCream = 2;
+        int weightIceCream = iceCream * 100;
+        byte eggs = 4;
+        int weightEggs = eggs * 70;
+        int allWeightGram = weightBanana + weightMilk + weightIceCream + weightEggs;
+        System.out.println("Вес завтрака в граммах = " + allWeightGram);
+        float allWeightKilo = allWeightGram / 1000f;
+        System.out.println("Вес завтрака в килограммах = " + allWeightKilo);
+
+
+
     }
 }
