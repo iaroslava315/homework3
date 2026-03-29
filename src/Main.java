@@ -36,5 +36,14 @@ public class Main {
         System.out.println(i);
 
 
+        byte studentsLP = 23;
+        byte studentsAS = 27;
+        byte studentsEA = 30;
+        short allPapers = 480;
+        int allStudents = studentsLP + studentsAS + studentsEA;
+        int paperForOneStudent = allPapers / allStudents;
+        System.out.println("На каждого ученика рассчитано " + paperForOneStudent + " листов бумаги");
+
+
     }
 }
