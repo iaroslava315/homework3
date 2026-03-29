@@ -20,5 +20,21 @@ public class Main {
         System.out.println("Значение переменной чай с типом double = " + tea + " кг");
 
 
+        double a = 27.12;
+        System.out.println(a);
+        long b = 987678965549L;
+        System.out.println(b);
+        float c = 2.786f;
+        System.out.println(c);
+        short e = 569;
+        System.out.println(e);
+        short d = -159;
+        System.out.println(d);
+        short g = 27897;
+        System.out.println(g);
+        byte i = 67;
+        System.out.println(i);
+
+
     }
 }
