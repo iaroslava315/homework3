@@ -80,6 +80,17 @@ public class Main {
         System.out.println("Вес завтрака в килограммах = " + allWeightKilo);
 
 
+        byte weight = 7;
+        int diet1 = 250;
+        int diet2 = 500;
+        int daysDiet1 = (weight * 1000) / diet1;
+        System.out.println("При похудении на " + diet1 + " грамм ежедневно потребуется " + daysDiet1 + " дней");
+        int daysDiet2 = (weight * 1000) / diet2;
+        System.out.println("При похудении на " + diet2 + " грамм ежедневно потребуется " + daysDiet2 + " дней");
+        int middleDays = (daysDiet1 + daysDiet2) / 2;
+        System.out.println("В среднем для похудения потребуется " + middleDays + " день");
+
+
 
     }
 }
